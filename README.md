@@ -1,2 +1,2 @@
-# CoinConverter
+### Coin Converter
 HTML form that converts cents into dollars, quarters, dimes, nickels, and pennies and print it out to a JSP page
