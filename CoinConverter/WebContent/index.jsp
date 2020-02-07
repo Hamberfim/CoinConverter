@@ -1,13 +1,20 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Welcome to the Java EE World!</title>
+<meta charset="UTF-8">
+<title>Coin Converter</title>
 </head>
 <body>
-	<h1>Hello! This is a JSP page!</h1>
-	<p>Stopped on page 6 before step 5. <em>Servlet and JSP Coin Converter doc.</em></p>
+	<h1>Coin Converter</h1>
+	<h3>Convert cents into denominations of currency.</h3>
+	<form action="getCentsServlet" method="post">
+		<fieldset>
+			<legend>Enter the number of cents you have in a whole number:</legend>
+				<input type="text" name="userCents" size="10">&nbsp;
+				<input type="submit" value="Calculate Coins" />
+		</fieldset>
+	</form>
 </body>
 </html>
